@@ -6,12 +6,12 @@
 
 
 ## Compare Performance (semaphore vs mutex)
-![hw2](https://user-images.githubusercontent.com/78201406/121796059-2891e780-cc51-11eb-9803-d9e03c9fc40a.png)
+![hw2](https://user-images.githubusercontent.com/78201406/121796113-a9e97a00-cc51-11eb-9083-8911375b3848.png)
 ###  Semaphore (Left)
 #### - real : 6.227s
 #### - user : 2.903s
 #### - sys : 6.421s
-### - Mutex (Right)
+### Mutex (Right)
 #### - real : 0.196s
 #### - user : 0.297s
 #### - sys : 0.076s
