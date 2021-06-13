@@ -20,7 +20,7 @@
 
 
 ## result
-####  Mutex is faster than semaphore
+####  Mutex is faster than semaphore.
 
 
 ## analysis
