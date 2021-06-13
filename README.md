@@ -4,14 +4,24 @@
 #### - Project #2 (Thread-Safety by Semaphore)
 #### - OS environment : Ubuntu Linux 18.04
 
-## Compare Performance (mutex vs semaphore)
 
-### - Mutex
+## Compare Performance (semaphore vs mutex)
+![hw2](https://user-images.githubusercontent.com/78201406/121796059-2891e780-cc51-11eb-9803-d9e03c9fc40a.png)
+###  Semaphore (Left)
+#### - real : 6.227s
+#### - user : 2.903s
+#### - sys : 6.421s
+### - Mutex (Right)
+#### - real : 0.196s
+#### - user : 0.297s
+#### - sys : 0.076s
 
-### - Semaphore
+
+
 
 ## result
 ####  Mutex is faster than semaphore
+
 
 ## analysis
 ####  In general, it is known that semaphore is much faster than mutex. That's because semaphore allows entering a critical section simultaneously. But in this case, there is only one resource. This is the reason mutex's execution is faster.
